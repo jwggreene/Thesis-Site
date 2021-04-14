@@ -136,6 +136,7 @@ function drawDot2() {
 }
 
 function mousePressed() {
+  userStartAudio();
   if (!ready) {
     ready = true;
   }
